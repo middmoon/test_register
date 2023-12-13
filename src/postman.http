@@ -1,0 +1,9 @@
+@url_dev = http://localhost:3000
+POST {{url_dev}}/register
+Content-Type: application/json
+
+{
+  "name": "test2",
+  "email": "2@gmail.com",
+  "password": "abc123"
+}
